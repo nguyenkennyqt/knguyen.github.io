@@ -27,7 +27,8 @@ body {
 }
 
 .content-wrap {
-    width: 900px;
+    max-width: 900px;
+    width: 85%;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -110,10 +111,27 @@ footer h2{
 .contact-list {
     list-style-type: none;
     padding: 10px;
-    display: flex;
-    justify-content: center;
 }
 
 .contact-list a{
     padding: 30px;
+}
+
+/*Responsive
+--------------------------------------*/
+@media screen and (min-width: 750px) {
+    header, footer h2 {
+        text-align: center;
+    }
+
+    .contact-list {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    h1 {
+        font-size: 75px;
+    }
 }
