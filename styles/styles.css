@@ -9,6 +9,10 @@ html {
 
 body {
     color: #343434; /* entire text body on page*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 body {
